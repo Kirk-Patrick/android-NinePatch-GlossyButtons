@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.com.visiontechjm.ninepatchglossybuttons.MainActivity">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/ButtonText"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_army_glossy"
+                android:text="Button"></Button>
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/ButtonText"
+                android:layout_below="@id/button1"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_blue_glossy"
+                android:text="Button"></Button>
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/ButtonText"
+                android:layout_below="@id/button2"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_blue_pink_glossy"
+                android:text="Button"></Button>
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/ButtonText"
+                android:layout_below="@id/button3"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_green_glossy"
+                android:text="Button"></Button>
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/ButtonText"
+                android:layout_below="@id/button4"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_lightblue_glossy"
+                android:text="Button"></Button>
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/ButtonText"
+                android:layout_below="@id/button5"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_pink_glossy"
+                android:text="Button"></Button>
+            <Button
+                android:id="@+id/ripple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button6"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ripple_effect"
+                android:text="Button"></Button>
+
+
+
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
